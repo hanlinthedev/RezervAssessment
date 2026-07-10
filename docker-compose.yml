@@ -30,5 +30,17 @@ services:
     depends_on:
       - mongodb
 
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: http://localhost:8080
+    container_name: rezerv-whatsapp-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - api
 volumes:
   mongodb_data:

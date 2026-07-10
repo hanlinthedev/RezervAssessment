@@ -34,10 +34,11 @@ namespace Rezerv.WhatsApp.Api.Controllers
             if (result.IsFailure)
                 return ToErrorResponse(result);
 
-            return CreatedAtAction(
-                nameof(Create),
+            return CreatedResponse(
+                nameof(GetByLocationId),
                 new { locationId = result.Value!.LocationId },
-                result.Value);
+                result.Value,
+                "Connection created successfully.");
         }
 
         [HttpGet]
