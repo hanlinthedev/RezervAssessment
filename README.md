@@ -2,8 +2,8 @@
 
 ## Documentations
 
-- [Backend README](https://github.com/hanlinthedev/ReservAssessment/blob/main/backend/README.md)
-- [Frontend README](https://github.com/hanlinthedev/ReservAssessment/blob/main/frontend/README.md)
+- [Backend README](https://github.com/hanlinthedev/RezervAssessment/blob/main/backend/README.md)
+- [Frontend README](https://github.com/hanlinthedev/RezervAssessment/blob/main/frontend/README.md)
 
 ---
 
@@ -146,8 +146,8 @@ Mongo DB stores location connections and message logs.
 
 For Detailed implementation, see:
 
-- [Backend README](https://github.com/hanlinthedev/ReservAssessment/blob/main/backend/README.md)
-- [Frontend README](https://github.com/hanlinthedev/ReservAssessment/blob/main/frontend/README.md)
+- [Backend README](https://github.com/hanlinthedev/RezervAssessment/blob/main/backend/README.md)
+- [Frontend README](https://github.com/hanlinthedev/RezervAssessment/blob/main/frontend/README.md)
 
 ### Repository Structure
 
@@ -229,7 +229,7 @@ docker compose up --build
 | `GET`    | `/webhook/meta`                           | Webhook verification    |
 | `POST`   | `/webhook/meta`                           | Webhook status updates  |
 
-All backend API endpoints are documented in [here](https://github.com/hanlinthedev/ReservAssessment/blob/main/backend/README.md#swagger-api)
+All backend API endpoints are documented in [here](https://github.com/hanlinthedev/RezervAssessment/blob/main/backend/README.md#swagger-api)
 
 ---
 
