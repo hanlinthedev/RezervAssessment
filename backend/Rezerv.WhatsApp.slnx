@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Rezerv.WhatsApp.Api/Rezerv.WhatsApp.Api.csproj" />
+  <Project Path="Rezerv.WhatsApp.Application/Rezerv.WhatsApp.Application.csproj" />
+  <Project Path="Rezerv.WhatsApp.Domain/Rezerv.WhatsApp.Domain.csproj" />
+  <Project Path="Rezerv.WhatsApp.Infrastructure/Rezerv.WhatsApp.Infrastructure.csproj" />
+</Solution>
